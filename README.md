@@ -2,7 +2,34 @@
 
 A sophisticated, high-converting single-page website for a premium Indian interior design company. This project showcases bespoke, elegant, and culturally rich interior design services with a focus on minimalist luxury.
 
+> **🚀 Live Demo:** [View Website](https://majestic-bubblegum-cbd9ce.netlify.app/)
+
 > **🚀 Netlify Deployment Fixed!** If you encountered a "Page not found" error, check [`NETLIFY_FIX.md`](./NETLIFY_FIX.md) for the complete solution based on official Netlify documentation.
+
+## 📸 Screenshots
+
+### Desktop View
+![Hero Section](screenshots/hero-desktop.png)
+*Elegant hero section with parallax scrolling effect*
+
+![Services Section](screenshots/services-desktop.png)
+*Comprehensive services showcase*
+
+![Portfolio Gallery](screenshots/portfolio-desktop.png)
+*Filterable project portfolio*
+
+### Mobile View
+![Mobile Hero](screenshots/mobile-hero.png)
+*Fully responsive mobile design*
+
+![Mobile Navigation](screenshots/mobile-menu.png)
+*Smooth mobile navigation*
+
+> **📝 Note:** To add screenshots, create a `screenshots` folder in your repository and add images with the names shown above. You can capture screenshots using:
+> - Browser DevTools screenshot feature
+> - [Screenzy](https://screenzy.io/) - For beautiful mockups
+> - [Responsively App](https://responsively.app/) - For multi-device screenshots
+> - Browser extensions like "Full Page Screen Capture"
 
 ## 🎨 Project Overview
 
