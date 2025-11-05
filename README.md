@@ -8,28 +8,29 @@ A sophisticated, high-converting single-page website for a premium Indian interi
 
 ## 📸 Screenshots
 
-### Desktop View
-![Hero Section](screenshots/hero-desktop.png)
+### Hero Section
+![Hero Section](screenshots/Home.png)
 *Elegant hero section with parallax scrolling effect*
 
-![Services Section](screenshots/services-desktop.png)
-*Comprehensive services showcase*
+### Vision & About
+![Vision Section](screenshots/vision.png)
+*Our design philosophy and approach*
 
-![Portfolio Gallery](screenshots/portfolio-desktop.png)
-*Filterable project portfolio*
+### Services
+![Services Section](screenshots/services.png)
+*Comprehensive luxury interior design services*
 
-### Mobile View
-![Mobile Hero](screenshots/mobile-hero.png)
-*Fully responsive mobile design*
+### Portfolio Gallery
+![Portfolio Gallery](screenshots/portfolio.png)
+*Filterable showcase of completed projects*
 
-![Mobile Navigation](screenshots/mobile-menu.png)
-*Smooth mobile navigation*
+### Testimonials
+![Client Testimonials](screenshots/testimonals.png)
+*Real feedback from satisfied clients*
 
-> **📝 Note:** To add screenshots, create a `screenshots` folder in your repository and add images with the names shown above. You can capture screenshots using:
-> - Browser DevTools screenshot feature
-> - [Screenzy](https://screenzy.io/) - For beautiful mockups
-> - [Responsively App](https://responsively.app/) - For multi-device screenshots
-> - Browser extensions like "Full Page Screen Capture"
+### Contact
+![Contact Section](screenshots/contact%20us.png)
+*Get in touch with our design team*
 
 ## 🎨 Project Overview
 
