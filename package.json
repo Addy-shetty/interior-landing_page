@@ -1,0 +1,28 @@
+{
+  "name": "ekaara-designs-landing-page",
+  "version": "1.0.0",
+  "description": "Luxury Indian Interior Design Landing Page - Minimalist Luxury",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=index.html",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "interior-design",
+    "luxury",
+    "landing-page",
+    "minimalist",
+    "indian-design",
+    "responsive",
+    "portfolio"
+  ],
+  "author": "Ekaara Designs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ekaara-designs"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

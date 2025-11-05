@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimalist E monogram for Ekaara -->
+  <rect width="32" height="32" fill="#2D2826"/>
+  <path d="M8 8H24V10H10V15H22V17H10V22H24V24H8V8Z" fill="#C9A961"/>
+  <rect x="10" y="13" width="2" height="2" fill="#C9A961"/>
+  <rect x="10" y="19" width="2" height="2" fill="#C9A961"/>
+</svg>

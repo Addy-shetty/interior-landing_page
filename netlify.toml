@@ -1,0 +1,42 @@
+# Netlify Configuration - Static Site (No Build Required)
+# Based on: https://answers.netlify.com/t/support-guide-i-ve-deployed-my-site-but-i-still-see-page-not-found/125
+
+[build]
+  # CRITICAL: For static sites, leave publish directory EMPTY or use "."
+  # When drag-and-drop deploying, the folder you drop becomes the root
+  # So if you drop the "Interior" folder, everything inside it is already at root
+  
+  # No build command needed - this is a static site
+  command = ""
+
+# SPA Redirect Rule - Required for client-side routing
+# From: https://answers.netlify.com/t/support-guide-i-ve-deployed-my-site-but-i-still-see-page-not-found/125
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Security Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache Static Assets
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
